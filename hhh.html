@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <img src=
+    <h1>hello world!</h1>
+    <h1>hello world2!</h1>
+    <button onclick="myFunction()">Dodaj atrybut</button>
+    <script>
+      var h = document.getElementsByTagName('h1')[1];
+      var typ = document.createAttribute('title');
+      typ.value = 'Test title';
+      h.attributes.setNamedItem(typ);
+    </script>
+  </body>
+</html>
